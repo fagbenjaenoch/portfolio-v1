@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+	--animate-slow-spin: slow-spin 4s linear infinite;
+	@keyframes slow-spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+}
