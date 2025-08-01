@@ -14,6 +14,10 @@ const navlinks: navlink[] = [
 		title: "Projects",
 		href: "/projects",
 	},
+	{
+		title: "Resumé",
+		href: "/resumé",
+	},
 ];
 
 export default function App() {
@@ -27,9 +31,6 @@ export default function App() {
 							{title}
 						</a>
 					))}
-					<a href="/resumé" className="cursor-pointer">
-						Resumé
-					</a>
 				</div>
 			</div>
 			<div className="px-4 h-[100dvh] pt-[20rem]">
@@ -60,6 +61,48 @@ export default function App() {
 				<h2 className="text-3xl font-bold">
 					Professional Experience and Selected Projects
 				</h2>
+				<div className="mt-4">
+					<ul>
+						<li>
+							<div>
+								<h4 className="text-2xl">Graphreach</h4>
+								<span className="uppercase">Full Stack Engineer</span>
+								<span className="block">2022-2023</span>
+								<p className="mt-4">
+									At Graphreach we were building a social media automation
+									solution for content creators. I really enjoyed my stay there.
+									My role exposed me much better to production environments
+									example of things I got experience with was monitoring and
+									logging (Observability), containerization with docker and
+									writing code using clean architecture.
+								</p>
+								<p className="mt-2">
+									{/*// TODO: Replace the margin top with line height*/}
+									Using React we built maintainable components with user
+									accessibility and wrote tests to make sure our components
+									worked as expected.
+								</p>
+								<p className="mt-2">
+									{/*// TODO: Replace the margin top with line height*/}
+									In order to enforce a similar code convention and automate
+									deployments to the cloud we worked with CI/CD pipelines that
+									performs tasks from verifying if the code that is being pushed
+									follows the company's code conventions to automating
+									deployments to the cloud, handling database provisioning as
+									well.
+								</p>
+							</div>
+						</li>
+						<li className="mt-8">
+							<div>
+								<h4 className="text-2xl">Copyup</h4>
+								<span className="uppercase">Full Stack Engineer</span>
+								<span className="block">2021-2022</span>
+								<p className="mt-2"></p>
+							</div>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	);
