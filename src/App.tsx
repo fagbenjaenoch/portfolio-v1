@@ -1,4 +1,7 @@
 import Cog from "./components/ui/Cog";
+import Github from "./components/ui/Github";
+import X from "./components/ui/X";
+import Time from "./components/Time";
 
 type navlink = {
 	title: string;
@@ -17,6 +20,25 @@ const navlinks: navlink[] = [
 	{
 		title: "Resumé",
 		href: "/resumé",
+	},
+];
+
+type contact = {
+	name: string;
+	Icon: React.FC<React.SVGProps<SVGSVGElement>>;
+	link: string;
+};
+
+const contacts: contact[] = [
+	{
+		name: "Github",
+		Icon: Github,
+		link: "https://github.com/fagbenjaenoch",
+	},
+	{
+		name: "X",
+		Icon: X,
+		link: "https://x.com/fagbenjaenoch",
 	},
 ];
 
@@ -112,10 +134,32 @@ export default function App() {
 					</ul>
 				</div>
 			</section>
-			<section></section>
-			<footer className="px-4 py-8 flex items-center justify-between">
-				<small>Built by Enoch (◠‿◠)</small>
-				<span className="text-sm">Lagos [TIME]</span>
+			<section className="px-4 py-12 text-center">
+				<h2 className="text-3xl font-bold mb-4">
+					Do I look like a good fit for your company?
+				</h2>
+				<a
+					className="block mx-auto bg-gray-600 text-white w-fit px-4 py-4 rounded-xl"
+					href="mailto:fagbenjaenoch73@gmail.com"
+				>
+					Send me a mail
+				</a>
+			</section>
+			<footer className="px-4 py-8">
+				<div className="flex items-center gap-6">
+					{contacts.map(({ name, Icon, link }) => (
+						<a key={name} href={link}>
+							<Icon width={20} height={20} className="inline-block mr-1" />
+							{name}
+						</a>
+					))}
+				</div>
+				<div className="flex items-center justify-between mt-[5rem]">
+					<small>Built by Enoch (◠‿◠)</small>
+					<span className="text-sm">
+						Lagos <Time />
+					</span>
+				</div>
 			</footer>
 		</div>
 	);
