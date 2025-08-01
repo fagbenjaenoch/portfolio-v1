@@ -3,7 +3,7 @@ import Cog from "./components/ui/Cog";
 export default function App() {
 	return (
 		<div>
-			<div className="px-4 py-6 backdrop-blur-md fixed top-0">
+			<div className="px-4 py-6 backdrop-blur-md fixed top-0 w-[100%] z-10">
 				<span className="text-2xl">Enoch Fagbenja</span>
 			</div>
 			<div className="px-4 h-[100dvh] pt-[20rem]">
@@ -18,6 +18,14 @@ export default function App() {
 						/>
 					</p>
 					<span className="text-sm">Based in Lagos</span>
+				</div>
+			</div>
+			<div className="px-4 pt-[10rem] h-[100dvh]">
+				<div>I enjoy tackling problems and learning from them.</div>
+				<div>
+					This has helped we deliver well in professional environments.
+					Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
+					Postgres, Monogdb, Nextjs
 				</div>
 			</div>
 		</div>
