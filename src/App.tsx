@@ -45,18 +45,20 @@ const contacts: contact[] = [
 export default function App() {
 	return (
 		<div>
-			<section className="px-4 py-6 backdrop-blur-md fixed top-0 w-[100%] z-10 flex items-center justify-between">
-				<span className="">Enoch Fagbenja</span>
-				<div className="flex gap-4">
-					{navlinks.map(({ title, href }) => (
-						<a key={title} href={href}>
-							{title}
-						</a>
-					))}
+			<section className="backdrop-blur-md fixed top-0 w-[100%] z-10">
+				<div className="px-4 py-6 lg:max-w-5xl lg:mx-auto flex items-center justify-between">
+					<span className="">Enoch Fagbenja</span>
+					<div className="flex gap-4">
+						{navlinks.map(({ title, href }) => (
+							<a key={title} href={href}>
+								{title}
+							</a>
+						))}
+					</div>
 				</div>
 			</section>
-			<section className="px-4 h-[100dvh] pt-[20rem]">
-				<h1 className="text-7xl font-bold">Software Developer</h1>
+			<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem]">
+				<h1 className="text-7xl font-bold lg:text-9xl">Software Developer</h1>
 				<div className="flex flex-col absolute bottom-[5rem] right-[8rem]">
 					<p className="text-2xl uppercase flex items-center gap-4">
 						Open to work
@@ -69,18 +71,18 @@ export default function App() {
 					<span className="text-sm">Based in Lagos</span>
 				</div>
 			</section>
-			<section className="px-4 py-[10rem]">
-				<div className="text-3xl">
+			<section className="px-4 py-[10rem] lg:max-w-5xl lg:mx-auto">
+				<p className="text-3xl italic">
 					I enjoy tackling problems and learning from them.
-				</div>
+				</p>
 				<div className="mt-4">
 					This has helped we deliver well in professional environments.
 					Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
 					Postgres, Monogdb, Nextjs
 				</div>
 			</section>
-			<section className="px-4 py-[4rem]">
-				<h2 className="text-3xl font-bold">
+			<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
+				<h2 className="text-3xl font-bold lg:text-5xl">
 					Professional Experience and Selected Projects
 				</h2>
 				<div className="mt-4">
@@ -135,7 +137,7 @@ export default function App() {
 				</div>
 			</section>
 			<section className="px-4 py-[10rem] text-center">
-				<h2 className="text-3xl font-bold mb-4">
+				<h2 className="text-3xl font-bold mb-4 lg:text-5xl lg:mb-8">
 					Do I look like a good fit for your company?
 				</h2>
 				<a
@@ -145,7 +147,7 @@ export default function App() {
 					Send me a mail
 				</a>
 			</section>
-			<footer className="px-4 py-8">
+			<footer className="px-4 py-8 lg:max-w-5xl lg:mx-auto">
 				<div className="flex items-center gap-6">
 					{contacts.map(({ name, Icon, link }) => (
 						<a key={name} href={link}>
