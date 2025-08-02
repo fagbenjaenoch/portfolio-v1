@@ -1,10 +1,21 @@
 @import "tailwindcss";
 
 @theme {
+	--color-primary: hsla(308, 31%, 10%, 1);
+	--color-secondary: hsla(28, 74%, 18%, 1);
+	--color-accent: hsla(310, 27%, 17%, 1);
+	--color-bg-darker: hsla(217, 25%, 90%, 1);
+	--color-bg: hsla(216, 28%, 93%, 1);
+
 	--animate-slow-spin: slow-spin 4s linear infinite;
+
 	@keyframes slow-spin {
 		to {
 			transform: rotate(360deg);
 		}
 	}
+}
+
+body {
+	@apply text-secondary bg-bg
 }
