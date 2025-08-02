@@ -69,7 +69,7 @@ export default function App() {
 					<span className="text-sm">Based in Lagos</span>
 				</div>
 			</section>
-			<section className="px-4 py-[10rem] bg-blue-400">
+			<section className="px-4 py-[10rem]">
 				<div className="text-3xl">
 					I enjoy tackling problems and learning from them.
 				</div>
@@ -139,7 +139,7 @@ export default function App() {
 					Do I look like a good fit for your company?
 				</h2>
 				<a
-					className="block mx-auto bg-gray-600 text-white w-fit px-4 py-4 rounded-xl"
+					className="block mx-auto bg-accent text-bg w-fit px-4 py-4 rounded-xl"
 					href="mailto:fagbenjaenoch73@gmail.com"
 				>
 					Send me a mail
@@ -149,7 +149,11 @@ export default function App() {
 				<div className="flex items-center gap-6">
 					{contacts.map(({ name, Icon, link }) => (
 						<a key={name} href={link}>
-							<Icon width={20} height={20} className="inline-block mr-1" />
+							<Icon
+								width={20}
+								height={20}
+								className="inline-block mr-1 fill-current"
+							/>
 							{name}
 						</a>
 					))}
