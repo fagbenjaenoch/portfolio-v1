@@ -134,7 +134,7 @@ export default function App() {
 					</ul>
 				</div>
 			</section>
-			<section className="px-4 py-12 text-center">
+			<section className="px-4 py-[10rem] text-center">
 				<h2 className="text-3xl font-bold mb-4">
 					Do I look like a good fit for your company?
 				</h2>
