@@ -161,11 +161,14 @@ export default function App() {
 					))}
 				</div>
 				<div className="flex items-center justify-between mt-[5rem]">
-					<small>Built by Enoch (◠‿◠)</small>
+					<small>Built one step out of comfort</small>
 					<span className="text-sm">
 						Lagos <Time />
 					</span>
 				</div>
+				<p className="text-center text-sm">
+					Scrolled down here? 👀 You're a legend!
+				</p>
 			</footer>
 		</div>
 	);
