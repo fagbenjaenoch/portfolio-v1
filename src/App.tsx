@@ -57,119 +57,134 @@ export default function App() {
 					</div>
 				</div>
 			</section>
-			<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem]">
-				<h1 className="text-7xl font-bold lg:text-9xl">Software Developer</h1>
-				<div className="flex flex-col absolute bottom-[5rem] right-[8rem]">
-					<p className="text-2xl uppercase flex items-center gap-4">
-						Open to work
-						<Cog
-							className="will-change-transform animate-slow-spin"
-							width={25}
-							height={25}
-						/>
-					</p>
-					<span className="text-sm">Based in Lagos</span>
-				</div>
-			</section>
-			<section className="px-4 py-[10rem] lg:max-w-5xl lg:mx-auto">
-				<p className="text-3xl italic">
-					I enjoy tackling problems and learning from them.
-				</p>
-				<div className="mt-4">
-					This has helped we deliver well in professional environments.
-					Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
-					Postgres, Monogdb, Nextjs
-				</div>
-			</section>
-			<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
-				<h2 className="text-3xl font-bold lg:text-5xl">
-					Professional Experience and Selected Projects
-				</h2>
-				<div className="mt-4">
-					<ul>
-						<li>
-							<div>
-								<h4 className="text-2xl">Graphreach [Link]</h4>
-								<span className="uppercase">Full Stack Engineer</span>
-								<span className="block">2022-2023</span>
-								<p className="mt-4">
-									At Graphreach we were building a social media automation
-									solution for content creators. I really enjoyed my stay there.
-									My role exposed me much better to production environments
-									example of things I got experience with was monitoring and
-									logging (Observability), containerization with docker and
-									writing code using clean architecture.
-								</p>
-								<p className="mt-2">
-									{/*// TODO: Replace the margin top with line height*/}
-									Using React we built maintainable components with user
-									accessibility in mind and wrote tests to make sure our
-									components worked as expected.
-								</p>
-								<p className="mt-2">
-									{/*// TODO: Replace the margin top with line height*/}
-									In order to enforce a similar code convention and automate
-									deployments to the cloud we worked with CI/CD pipelines that
-									performed tasks from verifying if the code that is being
-									pushed follows the company's code conventions to running tests
-									to make sure nothing was broken during development and
-									automating deployments to the cloud, handling database
-									provisioning as well.
-								</p>
-							</div>
-						</li>
-						<li className="mt-8">
-							<div>
-								<h4 className="text-2xl">Copyup [Link]</h4>
-								<span className="uppercase">Full Stack Engineer</span>
-								<span className="block">2021-2022</span>
-								<p className="mt-4">
-									At Copyup, we built a premium lms platform for copywriters to
-									learn from industry experts. I enjoyed building this project
-									as it gave me significant experience with working with user
-									access control and insight into frontend architecture, video
-									uploading and compression techniques, payment feature
-									implementation and content management.
-								</p>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section className="px-4 py-[10rem] text-center">
-				<h2 className="text-3xl font-bold mb-4 lg:text-5xl lg:mb-8">
-					Do I look like a good fit for your company?
-				</h2>
-				<a
-					className="block mx-auto bg-accent text-bg w-fit px-4 py-4 rounded-xl"
-					href="mailto:fagbenjaenoch73@gmail.com"
-				>
-					Send me a mail
-				</a>
-			</section>
-			<footer className="px-4 py-8 lg:max-w-5xl lg:mx-auto">
-				<div className="flex items-center gap-6">
-					{contacts.map(({ name, Icon, link }) => (
-						<a key={name} href={link}>
-							<Icon
-								width={20}
-								height={20}
-								className="inline-block mr-1 fill-current"
+			<div className="absolute z-1 h-[100dvh] w-[100%]">
+				<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem]">
+					<h1 className="text-7xl font-bold lg:text-9xl">Software Developer</h1>
+					<div className="flex flex-col absolute bottom-[5rem] right-[8rem]">
+						<p className="text-2xl uppercase flex items-center gap-4">
+							Open to work
+							<Cog
+								className="will-change-transform animate-slow-spin"
+								width={25}
+								height={25}
 							/>
-							{name}
-						</a>
-					))}
-				</div>
-				<div className="flex items-center justify-between mt-[5rem]">
-					<small>Built one step out of comfort</small>
-					<span className="text-sm">
-						Lagos <Time />
-					</span>
-				</div>
-				<p className="text-center text-sm">
-					Scrolled down here? 👀 You're a legend!
-				</p>
-			</footer>
+						</p>
+						<span className="text-sm">Based in Lagos</span>
+					</div>
+				</section>
+				<section className="px-4 py-[10rem] lg:max-w-5xl lg:mx-auto">
+					<p className="text-3xl italic">
+						I enjoy tackling problems and learning from them.
+					</p>
+					<div className="mt-4">
+						This has helped we deliver well in professional environments.
+						Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
+						Postgres, Monogdb, Nextjs
+					</div>
+				</section>
+				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
+					<h2 className="text-3xl font-bold lg:text-5xl">
+						Professional Experience and Selected Projects
+					</h2>
+					<div className="mt-4">
+						<ul>
+							<li>
+								<div>
+									<h4 className="text-2xl">Graphreach [Link]</h4>
+									<span className="uppercase">Full Stack Engineer</span>
+									<span className="block">2022-2023</span>
+									<p className="mt-4">
+										At Graphreach we were building a social media automation
+										solution for content creators. I really enjoyed my stay
+										there. My role exposed me much better to production
+										environments example of things I got experience with was
+										monitoring and logging (Observability), containerization
+										with docker and writing code using clean architecture.
+									</p>
+									<p className="mt-2">
+										{/*// TODO: Replace the margin top with line height*/}
+										Using React we built maintainable components with user
+										accessibility in mind and wrote tests to make sure our
+										components worked as expected.
+									</p>
+									<p className="mt-2">
+										{/*// TODO: Replace the margin top with line height*/}
+										In order to enforce a similar code convention and automate
+										deployments to the cloud we worked with CI/CD pipelines that
+										performed tasks from verifying if the code that is being
+										pushed follows the company's code conventions to running
+										tests to make sure nothing was broken during development and
+										automating deployments to the cloud, handling database
+										provisioning as well.
+									</p>
+								</div>
+							</li>
+							<li className="mt-8">
+								<div>
+									<h4 className="text-2xl">Copyup [Link]</h4>
+									<span className="uppercase">Full Stack Engineer</span>
+									<span className="block">2021-2022</span>
+									<p className="mt-4">
+										At Copyup, we built a premium lms platform for copywriters
+										to learn from industry experts. I enjoyed building this
+										project as it gave me significant experience with working
+										with user access control and insight into frontend
+										architecture, video uploading and compression techniques,
+										payment feature implementation and content management.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section className="px-4 py-[10rem] text-center">
+					<h2 className="text-3xl font-bold mb-4 lg:text-5xl lg:mb-8">
+						Do I look like a good fit for your company?
+					</h2>
+					<a
+						className="block mx-auto bg-accent text-bg w-fit px-4 py-4 rounded-xl"
+						href="mailto:fagbenjaenoch73@gmail.com"
+					>
+						Let me know
+					</a>
+				</section>
+				<footer className="px-4 py-8 lg:max-w-5xl lg:mx-auto">
+					<div className="flex items-center gap-6">
+						{contacts.map(({ name, Icon, link }) => (
+							<a key={name} href={link}>
+								<Icon
+									width={20}
+									height={20}
+									className="inline-block mr-1 fill-current"
+								/>
+								{name}
+							</a>
+						))}
+					</div>
+					<div className="flex items-center justify-between mt-[5rem]">
+						<small>Built one step out of comfort</small>
+						<span className="text-sm">
+							Lagos <Time />
+						</span>
+					</div>
+					<p className="text-center text-sm">
+						Scrolled down here? 👀 You're a legend!
+					</p>
+				</footer>
+			</div>
+			{/* Gradient Background from https://patterncraft.fun/ */}
+			<div
+				className="fixed inset-0 z-0"
+				style={{
+					backgroundImage: `
+        linear-gradient(to right, rgba(229,231,235,0.8) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(229,231,235,0.8) 1px, transparent 1px),
+        radial-gradient(circle 500px at 20% 20%, rgba(139,92,246,0.3), transparent),
+        radial-gradient(circle 500px at 80% 80%, rgba(59,130,246,0.3), transparent)
+      `,
+					backgroundSize: "48px 48px, 48px 48px, 100% 100%, 100% 100%",
+				}}
+			/>
 		</div>
 	);
 }

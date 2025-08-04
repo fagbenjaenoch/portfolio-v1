@@ -17,5 +17,5 @@
 }
 
 body {
-	@apply text-secondary bg-bg leading-relaxed;
+	@apply text-secondary leading-relaxed;
 }
