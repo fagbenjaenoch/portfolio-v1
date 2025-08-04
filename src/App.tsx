@@ -74,7 +74,7 @@ export default function App() {
 				</section>
 				<section className="px-4 py-[10rem] lg:max-w-5xl lg:mx-auto">
 					<p className="text-3xl italic">
-						I enjoy tackling problems breaking things and learning from them.
+						I enjoy tackling problems, tinkering and learning from them.
 					</p>
 					<div className="mt-4">
 						This has helped we deliver well in professional environments.
@@ -138,7 +138,7 @@ export default function App() {
 						Do I look like a good fit for your company?
 					</h2>
 					<a
-						className="block mx-auto bg-secondary text-bg w-fit px-4 py-4 rounded-xl"
+						className="block mx-auto bg-secondary text-bg w-fit px-4 py-4 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]"
 						href="mailto:fagbenjaenoch73@gmail.com?subject=Interested%20to%20work%20with%20you."
 					>
 						I'd love to work with you!
