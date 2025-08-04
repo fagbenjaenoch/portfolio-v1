@@ -74,12 +74,12 @@ export default function App() {
 				</section>
 				<section className="px-4 py-[10rem] lg:max-w-5xl lg:mx-auto">
 					<p className="text-3xl italic">
-						I enjoy tackling problems and learning from them.
+						I enjoy tackling problems breaking things and learning from them.
 					</p>
 					<div className="mt-4">
 						This has helped we deliver well in professional environments.
 						Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
-						Postgres, Monogdb, Nextjs
+						Postgres, Monogdb, Nextjs, Drizzle,
 					</div>
 				</section>
 				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
@@ -97,18 +97,16 @@ export default function App() {
 										At Graphreach we were building a social media automation
 										solution for content creators. I really enjoyed my stay
 										there. My role exposed me much better to production
-										environments example of things I got experience with was
-										monitoring and logging (Observability), containerization
-										with docker and writing code using clean architecture.
+										environments where I got experience with monitoring and
+										logging (Observability), containerization with docker and
+										writing code using clean architecture.
 									</p>
 									<p className="mt-2">
-										{/*// TODO: Replace the margin top with line height*/}
 										Using React we built maintainable components with user
 										accessibility in mind and wrote tests to make sure our
 										components worked as expected.
 									</p>
 									<p className="mt-2">
-										{/*// TODO: Replace the margin top with line height*/}
 										In order to enforce a similar code convention and automate
 										deployments to the cloud we worked with CI/CD pipelines that
 										performed tasks from verifying if the code that is being
@@ -162,14 +160,15 @@ export default function App() {
 						))}
 					</div>
 					<div className="flex items-center justify-between mt-[5rem]">
-						<small>Built one step out of comfort</small>
+						<small>Built with a step out of comfort</small>
 						<span className="text-sm">
 							Lagos <Time />
 						</span>
 					</div>
-					<p className="text-center text-sm">
-						Scrolled down here? 👀 You're a legend!
-					</p>
+					<div className="text-center text-sm">
+						<p>Scrolled down here? 👀 You're a legend!</p>
+						<p className="opacity-70">©Enoch Fagbenja. All Rights reserved</p>
+					</div>
 				</footer>
 			</div>
 			{/* Gradient Background from https://patterncraft.fun/ */}
