@@ -83,9 +83,7 @@ export default function App() {
 					</div>
 				</section>
 				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
-					<h2 className="text-3xl font-bold lg:text-5xl">
-						Professional Experience and Selected Projects
-					</h2>
+					<h2 className="text-3xl font-bold lg:text-5xl">Proof of Work</h2>
 					<div className="mt-4">
 						<ul>
 							<li>
@@ -140,10 +138,10 @@ export default function App() {
 						Do I look like a good fit for your company?
 					</h2>
 					<a
-						className="block mx-auto bg-accent text-bg w-fit px-4 py-4 rounded-xl"
-						href="mailto:fagbenjaenoch73@gmail.com"
+						className="block mx-auto bg-secondary text-bg w-fit px-4 py-4 rounded-xl"
+						href="mailto:fagbenjaenoch73@gmail.com?subject=Interested%20to%20work%20with%20you."
 					>
-						Let me know
+						I'd love to work with you!
 					</a>
 				</section>
 				<footer className="px-4 py-8 lg:max-w-5xl lg:mx-auto">
@@ -167,7 +165,9 @@ export default function App() {
 					</div>
 					<div className="text-center text-sm">
 						<p>Scrolled down here? 👀 You're a legend!</p>
-						<p className="opacity-70">©Enoch Fagbenja. All Rights reserved</p>
+						<p className="opacity-70 mt-4">
+							©Enoch Fagbenja. All Rights reserved
+						</p>
 					</div>
 				</footer>
 			</div>
