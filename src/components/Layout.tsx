@@ -8,7 +8,7 @@ export default function Layout({
 	return (
 		<div {...props}>
 			<Navbar />
-			{children}
+			<div className="absolute z-1 h-[100dvh] w-[100%]">{children}</div>
 			<Background />
 		</div>
 	);

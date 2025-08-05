@@ -1,7 +1,11 @@
 import { contacts } from "../utils";
 import Time from "./Time";
 
-export default function Footer() {
+export default function Footer({
+	showAppreciationText = false,
+}: {
+	showAppreciationText?: boolean;
+}) {
 	return (
 		<footer className="px-4 py-8 lg:max-w-5xl lg:mx-auto">
 			<div className="flex items-center gap-6">
@@ -23,6 +27,7 @@ export default function Footer() {
 				</span>
 			</div>
 			<div className="text-center text-sm">
+				{showAppreciationText && <p>Scrolled down here? 👀 You're a legend!</p>}
 				<p className="opacity-70 mt-4">©Enoch Fagbenja. All Rights reserved</p>
 			</div>
 		</footer>
