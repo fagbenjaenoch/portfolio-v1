@@ -79,7 +79,7 @@ export default function App() {
 					<div className="mt-4">
 						This has helped we deliver well in professional environments.
 						Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
-						Postgres, Monogdb, Nextjs, Drizzle,
+						Postgres, Monogdb, Nextjs, Drizzle, Express, Postman, WSL.
 					</div>
 				</section>
 				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
