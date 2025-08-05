@@ -1,6 +1,6 @@
-import Cog from "./components/ui/Cog";
-import Layout from "./components/Layout";
 import Footer from "./components/Footer";
+import Layout from "./components/Layout";
+import Cog from "./components/ui/Cog";
 
 export default function App() {
 	return (
@@ -49,7 +49,7 @@ export default function App() {
 									</p>
 									<p className="mt-2">
 										Using React we built maintainable components with user
-										accessibility in mind and wrote tests to make sure our
+										accessibility in mind and wrote tests to ensure our
 										components worked as expected.
 									</p>
 									<p className="mt-2">
