@@ -79,7 +79,7 @@ export default function App() {
 					<div className="mt-4">
 						This has helped we deliver well in professional environments.
 						Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
-						Postgres, Monogdb, Nextjs, Drizzle, Express, Postman, WSL.
+						Postgres, Monogdb, Nextjs, Drizzle, Express, Postman.
 					</div>
 				</section>
 				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
@@ -127,6 +127,11 @@ export default function App() {
 										with user access control and insight into frontend
 										architecture, video uploading and compression techniques,
 										payment feature implementation and content management.
+									</p>
+									<p className="mt-2">
+										I also got hands-on experience with visualization of data in
+										react using [visualization library] and data aggregation and
+										pipelines in MongoDB.
 									</p>
 								</div>
 							</li>
