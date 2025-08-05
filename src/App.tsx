@@ -2,7 +2,7 @@ import Cog from "./components/ui/Cog";
 import Github from "./components/ui/Github";
 import X from "./components/ui/X";
 import Time from "./components/Time";
-import Navbar from "./components/Navbar";
+import Layout from "./components/Layout";
 
 type contact = {
 	name: string;
@@ -25,8 +25,7 @@ const contacts: contact[] = [
 
 export default function App() {
 	return (
-		<div>
-			<Navbar />
+		<Layout>
 			<div className="absolute z-1 h-[100dvh] w-[100%]">
 				<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem]">
 					<h1 className="text-7xl font-bold lg:text-9xl">Software Developer</h1>
@@ -146,19 +145,6 @@ export default function App() {
 					</div>
 				</footer>
 			</div>
-			{/* Gradient Background from https://patterncraft.fun/ */}
-			<div
-				className="fixed inset-0 z-0"
-				style={{
-					backgroundImage: `
-        linear-gradient(to right, rgba(229,231,235,0.8) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(229,231,235,0.8) 1px, transparent 1px),
-        radial-gradient(circle 500px at 20% 20%, rgba(139,92,246,0.3), transparent),
-        radial-gradient(circle 500px at 80% 80%, rgba(59,130,246,0.3), transparent)
-      `,
-					backgroundSize: "48px 48px, 48px 48px, 100% 100%, 100% 100%",
-				}}
-			/>
-		</div>
+		</Layout>
 	);
 }
