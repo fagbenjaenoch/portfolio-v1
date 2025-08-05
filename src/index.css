@@ -20,6 +20,16 @@ html {
 	scroll-behavior: smooth;
 }
 
+::selection {
+	background-color: var(--color-secondary);
+	color: var(--color-bg);
+}
+
+::-moz-selection {
+	background-color: var(--color-secondary);
+	color: var(--color-bg);
+}
+
 @font-face {
 	font-family: "CabinetGrotesk-Variable";
 	src: url("/fonts/CabinetGrotesk-Variable.woff") format("woff");
