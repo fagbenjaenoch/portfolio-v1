@@ -1,27 +1,7 @@
 import Cog from "./components/ui/Cog";
-import Github from "./components/ui/Github";
-import X from "./components/ui/X";
 import Time from "./components/Time";
 import Layout from "./components/Layout";
-
-type contact = {
-	name: string;
-	Icon: React.FC<React.SVGProps<SVGSVGElement>>;
-	link: string;
-};
-
-const contacts: contact[] = [
-	{
-		name: "Github",
-		Icon: Github,
-		link: "https://github.com/fagbenjaenoch",
-	},
-	{
-		name: "X",
-		Icon: X,
-		link: "https://x.com/fagbenjaenoch",
-	},
-];
+import { contacts } from "./utils";
 
 export default function App() {
 	return (
