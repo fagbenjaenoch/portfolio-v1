@@ -24,8 +24,17 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: "Satoshi-Variable";
+	src: url("/fonts/Satoshi-Variable.woff") format("woff");
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+
 body {
 	@apply text-secondary leading-relaxed;
+	font-family: "Satoshi-Variable", sans-serif;
 }
 
 h1 {
