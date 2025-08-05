@@ -16,6 +16,10 @@
 	}
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 @font-face {
 	font-family: "CabinetGrotesk-Variable";
 	src: url("/fonts/CabinetGrotesk-Variable.woff") format("woff");
