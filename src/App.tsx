@@ -2,26 +2,7 @@ import Cog from "./components/ui/Cog";
 import Github from "./components/ui/Github";
 import X from "./components/ui/X";
 import Time from "./components/Time";
-
-type navlink = {
-	title: string;
-	href: string;
-};
-
-const navlinks: navlink[] = [
-	{
-		title: "About",
-		href: "/about",
-	},
-	{
-		title: "Projects",
-		href: "/projects",
-	},
-	{
-		title: "Resumé",
-		href: "/resumé",
-	},
-];
+import Navbar from "./components/Navbar";
 
 type contact = {
 	name: string;
@@ -45,18 +26,7 @@ const contacts: contact[] = [
 export default function App() {
 	return (
 		<div>
-			<section className="backdrop-blur-md fixed top-0 w-[100%] z-10">
-				<div className="px-4 py-6 lg:max-w-5xl lg:mx-auto flex items-center justify-between">
-					<span className="">Enoch Fagbenja</span>
-					<div className="flex gap-4">
-						{navlinks.map(({ title, href }) => (
-							<a key={title} href={href}>
-								{title}
-							</a>
-						))}
-					</div>
-				</div>
-			</section>
+			<Navbar />
 			<div className="absolute z-1 h-[100dvh] w-[100%]">
 				<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem]">
 					<h1 className="text-7xl font-bold lg:text-9xl">Software Developer</h1>
@@ -79,7 +49,7 @@ export default function App() {
 					<div className="mt-4">
 						This has helped we deliver well in professional environments.
 						Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
-						Postgres, Monogdb, Nextjs, Drizzle, Express, Postman, Git.
+						Postgres, Monogdb, Nextjs, Drizzle, Express, Postman, Git .
 					</div>
 				</section>
 				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
