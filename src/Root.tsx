@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import App from "./App";
 import About from "./components/pages/About";
+import Projects from "./components/pages/Projects";
 
 export default function Root() {
 	return (
@@ -8,7 +9,8 @@ export default function Root() {
 			<Routes>
 				<Route path="/" element={<App />} />
 				<Route path="/about" element={<About />} />
-				<Route path="/hello" element={<div>Hello</div>} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/resumé" element={<div>Hello</div>} />
 			</Routes>
 		</BrowserRouter>
 	);
