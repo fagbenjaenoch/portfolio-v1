@@ -9,6 +9,7 @@ export default function About() {
 				<h1 className="text-7xl font-bold lg:text-7xl">About Me</h1>
 			</section>
 			<section className="px-4 lg:max-w-5xl lg:mx-auto">
+				<p>Hi, I'm Enoch</p>
 				<Link to={"/"} className="underline underline-offset-4 block">
 					⬅️ Go back to home
 				</Link>
