@@ -55,3 +55,8 @@ body {
 h1 {
 	font-family: "CabinetGrotesk-Variable", sans-serif;
 }
+
+/* React router active link */
+a.active {
+	text-decoration: underline;
+}

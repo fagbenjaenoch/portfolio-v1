@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 type navlink = {
 	title: string;
@@ -27,9 +27,9 @@ export default function Navbar() {
 				<Link to={"/"}>Enoch Fagbenja</Link>
 				<div className="flex gap-4">
 					{navlinks.map(({ title, href }) => (
-						<Link key={title} to={href}>
+						<NavLink key={title} to={href}>
 							{title}
-						</Link>
+						</NavLink>
 					))}
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 import { Link } from "react-router";
+import profilePhoto from "../../assets/me.jpg";
 import Footer from "../Footer";
 import Layout from "../Layout";
-import profilePhoto from "../../assets/me.jpg";
 
 export default function About() {
 	return (
