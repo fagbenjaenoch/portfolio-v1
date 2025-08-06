@@ -28,7 +28,9 @@ export default function Footer({
 			</div>
 			<div className="text-center text-sm">
 				{showAppreciationText && <p>Scrolled down here? 👀 You're a legend!</p>}
-				<p className="opacity-70 mt-4">©Enoch Fagbenja. All Rights reserved</p>
+				<p className="text-secondary-muted mt-4">
+					©Enoch Fagbenja. All Rights reserved
+				</p>
 			</div>
 		</footer>
 	);

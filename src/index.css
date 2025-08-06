@@ -3,6 +3,7 @@
 @theme {
 	--color-primary: hsla(308, 31%, 10%, 1);
 	--color-secondary: hsla(28, 74%, 18%, 1);
+	--color-secondary-muted: hsla(28, 74%, 18%, 0.8);
 	--color-accent: hsla(310, 27%, 17%, 1);
 	--color-bg-darker: hsla(217, 25%, 90%, 1);
 	--color-bg: hsla(216, 28%, 93%, 1);
