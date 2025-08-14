@@ -20,14 +20,27 @@ export default function App() {
 						<span className="text-sm">Based in Lagos</span>
 					</div>
 				</section>
-				<section className="px-4 py-[10rem] lg:max-w-5xl lg:mx-auto">
-					<p className="text-3xl italic">
-						I enjoy tackling problems, tinkering and learning from them.
+				<section className="px-4 py-[10rem] lg:max-w-5xl lg:mx-auto space-y-4">
+					<p>
+						I'm Enoch and I enjoy using computers. I've been fiddling around
+						with them for over a decade and writing programs on them for half
+						the time.
+					</p>
+					<div>
+						<p>My philosophy is:</p>
+						<p className="text-3xl italic">
+							tackling problems, tinkering and learning from them.
+						</p>
+					</div>
+					<p>
+						For me, it's all about learning and growth. Sometimes, it takes away
+						comfort from me and that's fine. This has helped me deliver well in
+						professional environments.
 					</p>
 					<div className="mt-4">
-						This has helped we deliver well in professional environments.
-						Technologies I use: React, Docker, Golang, Nodejs, Hono, Bun,
-						Postgres, Monogdb, Nextjs, Drizzle, Express, Postman, Git .
+						Here are the technologies I use: React, Docker, Golang, Nodejs,
+						Hono, Bun, Postgres, Monogdb, Nextjs, Drizzle, Express, Hoppscotch,
+						Git (and a few others. Dosen't really matter, right?)
 					</div>
 				</section>
 				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
@@ -88,13 +101,13 @@ export default function App() {
 				</section>
 				<section className="px-4 py-[10rem] text-center">
 					<h2 className="text-3xl font-bold mb-4 lg:text-5xl lg:mb-8">
-						Do I look like a good fit for your company?
+						Looking for a new hire?
 					</h2>
 					<a
 						className="block mx-auto bg-secondary text-bg w-fit px-4 py-4 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]"
 						href="mailto:fagbenjaenoch73@gmail.com?subject=Interested%20to%20work%20with%20you."
 					>
-						I'd love to work with you!
+						Hit me up!
 					</a>
 				</section>
 				<Footer showAppreciationText />

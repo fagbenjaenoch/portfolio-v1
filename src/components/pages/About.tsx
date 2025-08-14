@@ -11,7 +11,7 @@ export default function About() {
 			</section>
 			<section className="px-4 lg:max-w-5xl lg:mx-auto mt-8 flex flex-col">
 				<img src={profilePhoto} alt="Enoch" className="w-[200px]" />
-				<p>Hi, I'm Enoch</p>
+				<p>Hi, I'm Enoch </p>
 				<Link to={"/"} className="underline underline-offset-4 block">
 					⬅️ Go back to home
 				</Link>
