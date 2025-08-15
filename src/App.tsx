@@ -33,9 +33,9 @@ export default function App() {
 						</p>
 					</div>
 					<p>
-						For me, it's all about learning and growth. Sometimes, it takes away
-						comfort from me and that's fine. This has helped me deliver well in
-						professional environments.
+						For me, it's all about learning and growth. Sometimes, it requires
+						coming out of my comfort zone and that's fine. This has helped me
+						deliver well in professional environments.
 					</p>
 					<div className="mt-4">
 						Here are the technologies I use: React, Docker, Golang, Nodejs,
