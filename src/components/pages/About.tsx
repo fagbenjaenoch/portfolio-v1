@@ -57,7 +57,10 @@ export default function About() {
 						repellendus modi?
 					</p>
 				</div>
-				<Link to={"/"} className="underline underline-offset-4 block">
+				<Link
+					to={"/"}
+					className="underline underline-offset-4 inline-block mt-16"
+				>
 					⬅️ Go back to home
 				</Link>
 			</section>
