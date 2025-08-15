@@ -60,3 +60,37 @@ h1 {
 a.active {
 	text-decoration: underline;
 }
+
+.navlink::before {
+	content: "[";
+}
+
+.navlink::after {
+	content: "]";
+}
+
+@media (min-width: 1024px) {
+	.navlink::before,
+	.navlink::after {
+		will-change: transform;
+		display: inline-block;
+		transition: 200ms ease;
+	}
+
+	.navlink::before {
+		content: "[";
+		transform: translateX(-4px);
+	}
+
+	.navlink::after {
+		content: "]";
+		transform: translateX(4px);
+	}
+
+	.navlink:hover::before {
+		transform: translateX(-2px);
+	}
+	.navlink:hover::after {
+		transform: translateX(2px);
+	}
+}
