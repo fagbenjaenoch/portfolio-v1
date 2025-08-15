@@ -6,7 +6,7 @@ export default function Projects() {
 	return (
 		<Layout>
 			<section className="px-4 lg:max-w-5xl lg:mx-auto pt-[10rem]">
-				<h1 className="text-7xl font-bold lg:text-7xl">
+				<h1 className="text-5xl font-bold lg:text-7xl">
 					Projects I've worked on
 				</h1>
 			</section>

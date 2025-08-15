@@ -6,18 +6,20 @@ export default function App() {
 	return (
 		<Layout>
 			<div className="absolute z-1 h-[100dvh] w-[100%]">
-				<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem]">
+				<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem] lg:pt-[15rem]">
 					<h1 className="text-7xl font-bold lg:text-9xl">Software Developer</h1>
-					<div className="flex flex-col absolute bottom-10 right-8 lg:bottom-[5rem] lg:right-[8rem]">
-						<p className="text-2xl uppercase flex items-center gap-4">
-							Open to work
-							<Cog
-								className="will-change-transform animate-slow-spin"
-								width={25}
-								height={25}
-							/>
-						</p>
-						<span className="text-sm">Based in Lagos</span>
+					<div className="flex gap-4 absolute bottom-10 right-8 lg:bottom-[5rem] lg:right-[8rem]">
+						<div className="space-y-[-5px] lg:space-y-0">
+							<h3 className="text-lg lg:text-2xl uppercase">Open to work</h3>
+							<span className="text-xs lg:text-sm inline-block">
+								Based in Lagos
+							</span>
+						</div>
+						<Cog
+							className="will-change-transform animate-slow-spin"
+							width={25}
+							height={25}
+						/>
 					</div>
 				</section>
 				<section className="px-4 py-[10rem] lg:max-w-5xl lg:mx-auto space-y-4">
@@ -104,7 +106,7 @@ export default function App() {
 						Looking for a new hire?
 					</h2>
 					<a
-						className="block mx-auto bg-secondary text-bg w-fit px-4 py-4 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]"
+						className="block mx-auto bg-secondary text-bg w-fit p-3 lg:p-4 rounded-xl shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]"
 						href="mailto:fagbenjaenoch73@gmail.com?subject=Interested%20to%20work%20with%20you."
 					>
 						Hit me up!

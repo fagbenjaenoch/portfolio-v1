@@ -7,8 +7,10 @@ export default function About() {
 	return (
 		<Layout>
 			<section className="px-4 lg:max-w-5xl lg:mx-auto pt-[10rem]">
-				<span className="inline-block text-secondary-muted ml-4">A bit</span>
-				<h1 className="text-7xl font-bold lg:text-7xl mt-[-5px]">About me</h1>
+				<span className="inline-block text-secondary-muted ml-3 lg:ml-4">
+					A bit
+				</span>
+				<h1 className="text-5xl font-bold lg:text-7xl mt-[-5px]">About me</h1>
 			</section>
 			<section className="px-4 lg:max-w-5xl lg:mx-auto mt-8 relative">
 				<div className="space-y-2 min-h-5/6">
