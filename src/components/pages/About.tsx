@@ -15,7 +15,7 @@ export default function About() {
 					<img
 						src={profilePhoto}
 						alt="Enoch"
-						className="w-[300px] float-right p-4"
+						className="w-[250px] float-right pl-8"
 					/>
 					<p>Hi, I'm Enoch and I'm fascinated by computers.</p>
 					<p>
@@ -40,6 +40,21 @@ export default function About() {
 					<p>
 						Recently, I've worked with a few startups that built products for
 						hundreds of users and it exposed me to professional environments.
+					</p>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias,
+						officia quasi laborum possimus sunt soluta expedita accusantium
+						ullam et fugiat. Quo enim repellendus obcaecati pariatur accusantium
+						magnam totam mollitia perspiciatis similique, qui doloremque illum,
+						adipisci ipsam, molestiae laudantium. Dolor labore neque veniam
+						delectus suscipit a accusamus quasi inventore nam voluptate,
+						mollitia consequatur pariatur, nostrum corrupti repellat culpa
+						corporis repudiandae ipsa ducimus, minima saepe aperiam
+						exercitationem. Minus ipsa tempora rerum ex, praesentium porro unde
+						tempore magnam, aliquid quod optio, repudiandae temporibus nulla
+						ducimus nesciunt odio ipsam exercitationem culpa inventore suscipit
+						error reiciendis aspernatur! Quam, nostrum nemo corrupti maxime ea
+						repellendus modi?
 					</p>
 				</div>
 				<Link to={"/"} className="underline underline-offset-4 block">
