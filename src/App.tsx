@@ -8,7 +8,7 @@ export default function App() {
 			<div className="absolute z-1 h-[100dvh] w-[100%]">
 				<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem]">
 					<h1 className="text-7xl font-bold lg:text-9xl">Software Developer</h1>
-					<div className="flex flex-col absolute bottom-[5rem] right-[8rem]">
+					<div className="flex flex-col absolute bottom-10 right-8 lg:bottom-[5rem] lg:right-[8rem]">
 						<p className="text-2xl uppercase flex items-center gap-4">
 							Open to work
 							<Cog

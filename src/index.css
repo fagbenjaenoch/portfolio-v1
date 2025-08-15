@@ -17,10 +17,6 @@
 	}
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 ::selection {
 	background-color: var(--color-secondary);
 	color: var(--color-bg);
@@ -45,6 +41,10 @@ html {
 	font-weight: 300;
 	font-display: swap;
 	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
