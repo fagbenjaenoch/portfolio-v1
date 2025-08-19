@@ -10,11 +10,12 @@ export default function Projects() {
 					Projects I've worked on
 				</h1>
 			</section>
-			<section className="backdrop-blur-md border-1 border-accent rounded-2xl px-4 lg:max-w-5xl lg:mx-auto">
-				<div className="p-4 rounded-md">
+			<section className="px-4 lg:max-w-5xl lg:mx-auto">
+				<div className="p-4 backdrop-blur-md border-1 border-accent rounded-2xl w-[400px] transition-shadow duration-300 hover:shadow-xl">
 					<h3 className="text-xl">[Project Name]</h3>
 					<a href="https://link.com">Links</a>
 					<p>Description</p>
+					<img src={""} alt={"alt text"} className="w-[100px] h-[80px]" />
 				</div>
 			</section>
 			<section className="px-4 lg:max-w-5xl lg:mx-auto mt-8 flex flex-col">
