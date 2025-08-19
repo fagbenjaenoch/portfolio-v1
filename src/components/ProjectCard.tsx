@@ -4,6 +4,7 @@ interface ProjectCardProps {
 	projectName: string;
 	description: string;
 	img: string;
+	tags: string[];
 	link: {
 		live: string | null;
 		github: string;
@@ -15,6 +16,7 @@ export default function ProjectCard({
 	link,
 	img,
 	description,
+	tags,
 }: ProjectCardProps) {
 	return (
 		<div className="bg-white/20 backdrop-blur-md border-1 border-white/40 rounded-2xl w-[400px] h-[250px] transition-shadow duration-300 hover:shadow-xl flex flex-col gap-8 overflow-clip group">
@@ -30,7 +32,17 @@ export default function ProjectCard({
 						</a>
 					</div>
 				</div>
-				<p className="text-secondary-muted">{description}</p>
+				<p className="text-secondary-muted mb-2">{description}</p>
+				<div className="space-x-2">
+					{tags.map((tag) => (
+						<span
+							key={tag}
+							className="text-xs border-1 px-1 rounded-xl capitalize"
+						>
+							{tag}
+						</span>
+					))}
+				</div>
 			</div>
 			<div className="w-[90%] h-[100%] rounded-tr-xl overflow-clip">
 				<img

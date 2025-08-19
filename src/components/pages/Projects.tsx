@@ -18,6 +18,7 @@ export default function Projects() {
 					img={Curator}
 					description="Helping you research faster"
 					link={{ github: "github.com", live: "curator.com" }}
+					tags={["go", "react"]}
 				/>
 			</section>
 			<section className="px-4 lg:max-w-5xl lg:mx-auto mt-8 flex flex-col">
