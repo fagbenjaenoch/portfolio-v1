@@ -46,7 +46,12 @@ export default function App() {
 					</div>
 				</section>
 				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
-					<h2 className="text-3xl font-bold lg:text-5xl">Proof of Work</h2>
+					<span className="inline-block text-secondary-muted ml-1">
+						Here's what matters
+					</span>
+					<h2 className="text-3xl font-bold lg:text-5xl mt-[-5px]">
+						Proof of Work
+					</h2>
 					<div className="mt-4">
 						<ul>
 							<li>
