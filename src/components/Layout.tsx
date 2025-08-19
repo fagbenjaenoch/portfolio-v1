@@ -8,7 +8,7 @@ export default function Layout({
 	return (
 		<div {...props}>
 			<Navbar />
-			<div className="absolute z-1 h-[100dvh] w-[100%] text-sm lg:text-base">
+			<div className="absolute z-1 h-[100dvh] w-[100%] text-sm lg:text-base pt-[10rem]">
 				{children}
 			</div>
 			<Background />

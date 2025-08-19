@@ -6,7 +6,7 @@ import Layout from "../Layout";
 export default function About() {
 	return (
 		<Layout>
-			<section className="px-4 lg:max-w-5xl lg:mx-auto pt-[10rem]">
+			<section className="px-4 lg:max-w-5xl lg:mx-auto">
 				<span className="inline-block text-secondary-muted ml-3 lg:ml-4">
 					A bit
 				</span>

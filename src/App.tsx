@@ -6,7 +6,7 @@ export default function App() {
 	return (
 		<Layout>
 			<div className="absolute z-1 h-[100dvh] w-[100%]">
-				<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[20rem] lg:pt-[15rem]">
+				<section className="px-4 lg:max-w-5xl lg:mx-auto h-[100dvh] pt-[10rem] lg:pt-[5rem]">
 					<h1 className="text-7xl font-bold lg:text-9xl">Software Developer</h1>
 					<div className="flex gap-4 absolute bottom-10 right-8 lg:bottom-[5rem] lg:right-[8rem]">
 						<div className="space-y-[-5px] lg:space-y-0">
