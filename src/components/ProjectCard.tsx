@@ -24,11 +24,15 @@ export default function ProjectCard({
 				<div className="flex justify-between">
 					<h3 className="text-2xl">{projectName}</h3>
 					<div className="flex items-center gap-2">
+						<a
+							title="Live demo"
+							className="inline-block"
+							href={link.live ?? "google.com"}
+						>
+							🌐
+						</a>
 						<a className="inline-block" href={link.github}>
 							<Github width={20} />
-						</a>
-						<a className="inline-block" href={link.live ?? "google.com"}>
-							🌐
 						</a>
 					</div>
 				</div>
