@@ -17,7 +17,7 @@ export default function ProjectCard({
 	description,
 }: ProjectCardProps) {
 	return (
-		<div className="backdrop-blur-md border-1 border-accent rounded-2xl w-[400px] h-[250px] transition-shadow duration-300 hover:shadow-xl flex flex-col gap-8 overflow-clip group">
+		<div className="bg-white/20 backdrop-blur-md border-1 border-white/40 rounded-2xl w-[400px] h-[250px] transition-shadow duration-300 hover:shadow-xl flex flex-col gap-8 overflow-clip group">
 			<div className="p-4">
 				<div className="flex justify-between">
 					<h3 className="text-2xl">{projectName}</h3>
