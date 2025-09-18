@@ -47,7 +47,7 @@ export default function App() {
 				</section>
 				<section className="px-4 py-[4rem] lg:max-w-5xl lg:mx-auto">
 					<span className="inline-block text-secondary-muted ml-1">
-						Here's what matters
+						Here's what matters:
 					</span>
 					<h2 className="text-3xl font-bold lg:text-5xl mt-[-5px]">
 						Proof of Work
@@ -91,10 +91,10 @@ export default function App() {
 									<p className="mt-4">
 										At Copyup, we built a premium lms platform for copywriters
 										to learn from industry experts. I enjoyed building this
-										project as it gave me significant experience with working
-										with user access control and insight into frontend
-										architecture, video uploading and compression techniques,
-										payment feature implementation and content management.
+										project as it gave me significant experience with user
+										access control and insights into frontend architecture,
+										video uploading and compression techniques, subscription
+										integration with paystack and content management.
 									</p>
 									<p className="mt-2">
 										I also got hands-on experience with visualization of data in
